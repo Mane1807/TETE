@@ -1,0 +1,107 @@
+body
+{
+ text-align:right;
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+ background: linear-gradient(white,#D3D8E8);
+
+
+}
+#header
+{
+ width:100%;
+ min-width:900px;
+ background-color:#a44c53;
+}
+
+p{
+    text-align: left;
+    font-size: 40;
+    color: goldenrod;
+}
+
+.tituloLogin{
+    text-align: center;
+    position: relative;
+    left: 80%;
+
+}
+.container-login{
+    width: 40%;
+    height: 80;
+    margin: 0 auto;
+
+}
+
+
+.container-form{
+    width: 90%;
+    border-radius: 5%;
+    
+    box-shadow: 10px 5px 5px black;
+    
+    
+    min-height: auto;
+}
+
+form{
+    width: 90%;
+    margin:  0 auto;
+    text-align: right;
+}
+
+
+nav{
+
+
+
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50;
+    text-align: center;
+}
+.fotoPerfil{
+    margin: 20px;
+    width: 50%;
+    border-radius: 100%;
+}
+.elemento-fijo{
+    position: fixed;
+    min-height: 120px;
+    text-align: center;
+    word-wrap: break-word;
+    width: 252px;
+}
+footer{
+     background-color: green;
+}
+@media screen  and (max-width: 1024px){
+    body{
+        font-size: 80px;
+    }
+  
+
+@media screen  and (max-width: 768px){
+    body{
+        font-size: 60px;
+    }
+   
+}
+
+@media screen  and (max-width: 600px){
+    body{
+        font-size: 40px;
+    }
+   
+}
+
+@media screen  and (max-width: 375px){
+    body{
+        font-size: 30px;
+    }
+    
+}
+}
